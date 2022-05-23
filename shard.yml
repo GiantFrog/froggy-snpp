@@ -1,0 +1,17 @@
+name: froggy-snpp
+version: 0.1.0
+
+authors:
+  - GiantFrog
+
+targets:
+  froggy-snpp:
+    main: src/froggy-snpp.cr
+
+crystal: 1.4.1
+
+license: MIT
+
+dependencies:
+  readline:
+    github: crystal-lang/crystal-readline
